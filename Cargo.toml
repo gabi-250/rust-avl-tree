@@ -1,0 +1,11 @@
+[package]
+name = "avl-tree"
+version = "0.1.0"
+authors = ["Gabriela Alexandra Moldovan <gabi_250@live.com>"]
+
+[dependencies]
+rand = "0.3"
+clippy = {version = "*", optional = true}
+
+[features]
+default = []
