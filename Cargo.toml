@@ -2,6 +2,8 @@
 name = "avl-tree"
 version = "0.1.0"
 authors = ["Gabriela Alexandra Moldovan <gabi_250@live.com>"]
+description = "A very simple AVL tree implementation"
+license = "GPL-3.0-or-later"
 
 [dependencies]
 rand = "0.3"
