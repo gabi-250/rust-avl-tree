@@ -27,7 +27,7 @@ impl<'a, T> SearchTree<T>
     ///
     /// # Example
     /// ```
-    /// use avl_tree::SearchTree;
+    /// use avltree::SearchTree;
     /// let tree: SearchTree<String> = SearchTree::new();
     /// assert!(tree.is_empty());
     /// ```
@@ -42,7 +42,7 @@ impl<'a, T> SearchTree<T>
     ///
     /// # Example
     /// ```
-    /// use avl_tree::SearchTree;
+    /// use avltree::SearchTree;
     /// let mut tree: SearchTree<String> = SearchTree::new();
     /// assert!(tree.is_empty());
     /// tree.insert(String::from("foo"));
@@ -56,7 +56,7 @@ impl<'a, T> SearchTree<T>
     ///
     /// # Example
     /// ```
-    /// use avl_tree::SearchTree;
+    /// use avltree::SearchTree;
     /// let mut tree: SearchTree<String> = SearchTree::new();
     /// tree.insert(String::from("hello"));
     /// tree.insert(String::from("world!"));
@@ -74,7 +74,7 @@ impl<'a, T> SearchTree<T>
     ///
     /// # Example
     /// ```
-    /// use avl_tree::SearchTree;
+    /// use avltree::SearchTree;
     /// let mut tree: SearchTree<String> = SearchTree::new();
     /// tree.insert(String::from("hello"));
     /// tree.insert(String::from("world!"));
@@ -317,7 +317,7 @@ impl<'a, T> SearchTree<T>
     ///
     /// # Example
     /// ```
-    /// use avl_tree::SearchTree;
+    /// use avltree::SearchTree;
     /// let mut tree: SearchTree<u64> = SearchTree::new();
     /// tree.insert(5);
     /// tree.insert(2);
