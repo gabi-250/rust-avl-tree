@@ -13,9 +13,9 @@ using their index in the `vec`.
 Returning an iterator over the values in the tree:
 
  ```rust
-extern crate avl_tree;
+extern crate avltree;
 
-use avl_tree::SearchTree;
+use avltree::SearchTree;
 
 fn main() {
     let mut tree: SearchTree<u64> = SearchTree::new();
