@@ -1,3 +1,6 @@
+[![Latest version](https://img.shields.io/crates/v/avltree.svg)](https://crates.io/crates/avltree)
+[![Documentation](https://docs.rs/avltree/badge.svg)](https://docs.rs/avltree)
+
 # avl-tree-rust
 An AVL tree implementation in Rust.
 
